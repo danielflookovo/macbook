@@ -31,4 +31,4 @@ open https://github.com/settings/keys
 echo "press return"
 read
 
-git@github.com:danielflookovo/macbook.git .macbook
+git clone git@github.com:danielflookovo/macbook.git .macbook
