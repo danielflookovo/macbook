@@ -1,22 +1,22 @@
-tap "homebrew/cask"
-#cask slack
-#cask jetbrains-toolbox
-#cask iterm2
-#cask docker
-#cask google-chrome
-#cask google-drive-file-stream
-#cask 1password
+#tap "homebrew/cask"
+#cask "slack"
+#cask "jetbrains-toolbox"
+#cask "iterm2"
+#cask "docker"
+#cask "google-chrome"
+#cask "google-drive-file-stream"
+#cask "1password"
 #cask "java"
-#brew "bash"
-#brew "zsh"
-#brew "git"
-#brew "python"
-#brew "scala"
-#brew "sbt"
-#brew "leiningen"
-#brew "go"
-#brew "node"
 
+brew "bash"
+brew "zsh"
+brew "git"
+brew "python"
+brew "scala"
+brew "sbt"
+brew "leiningen"
+brew "go"
+brew "node"
 brew "coreutils"
 brew "binutils"
 brew "diffutils"
@@ -27,7 +27,6 @@ brew "gnu-which"
 brew "gnutls"
 brew "grep"
 brew "gzip"
-
 brew "watch"
 brew "wget"
 brew "gpg"
@@ -37,7 +36,10 @@ brew "gawk"
 brew "screen"
 brew "wdiff"
 brew "wget"
-
 brew "nano"
 brew "make"
 brew "bash"
+brew "less"
+
+tap "warrensbox/tap"
+brew "tfswitch"
