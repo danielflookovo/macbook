@@ -7,7 +7,7 @@
 #cask "google-drive-file-stream"
 #cask "1password"
 #cask "java"
-
+cask "postman"
 brew "bash"
 brew "zsh"
 brew "git"
@@ -40,6 +40,9 @@ brew "nano"
 brew "make"
 brew "bash"
 brew "less"
+brew "awscli"
+
+cask "google-cloud-sdk"
 
 tap "warrensbox/tap"
 brew "tfswitch"
