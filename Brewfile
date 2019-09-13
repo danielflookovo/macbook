@@ -6,6 +6,7 @@
 #cask "google-chrome"
 #cask "google-drive-file-stream"
 #cask "1password"
+cask "1password-cli"
 #cask "java"
 cask "postman"
 brew "bash"
@@ -41,8 +42,23 @@ brew "make"
 brew "bash"
 brew "less"
 brew "awscli"
+brew "hadolint"
+brew "jq"
+brew "kubernetes-helm"
 
 cask "google-cloud-sdk"
 
 tap "warrensbox/tap"
 brew "tfswitch"
+
+tap "Arkweid/lefthook/"
+brew "lefthook"
+
+tap "instrumenta/instrumenta"
+brew "kubeval"
+
+tap "derailed/popeye"
+brew "popeye"
+
+tap "kube-score/tap"
+brew "kube-score"

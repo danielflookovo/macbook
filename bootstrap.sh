@@ -31,8 +31,4 @@ open https://github.com/settings/keys
 echo "press return"
 read
 
-git clone git@github.com:danielflookovo/macbook.git .macbook
-
-ln -s $HOME/.macbook/home/.bashrc $HOME/.bashrc
-ln -s $HOME/.macbook/home/.zshrc $HOME/.zshrc
-ln -s $HOME/.macbook/home/.terraformrc $HOME/.terraformrc
+git clone git@github.com:danielflookovo/macbook.git $HOME/.macbook
