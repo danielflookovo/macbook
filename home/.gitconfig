@@ -1,0 +1,12 @@
+[user]
+	name = Daniel Flook
+	email = daniel.flook@ovoenergy.com
+[core]
+	editor = nano
+[credential]
+	helper = osxkeychain
+[commit]
+	gpgsign = true
+[alias]
+        hub = "!f(){ open `git remote -v | awk '/fetch/{print $2}' | sed -Ee 's#((ssh://)?git@|git://)#https://#' -e 's@com:@com/@'`| head -n1; }; f"
+        circle = "!f(){ open `git remote -v | awk '/fetch/{print $2}' | sed -Ee 's@com:@com@' -Ee 's#((ssh://)?git@|git://)[-.A-Za-z0-9]+#https://circleci.com/gh/ovotech/workflows#' -Ee 's/.git//'`| head -n1; }; f"

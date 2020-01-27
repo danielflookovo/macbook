@@ -12,4 +12,11 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+bindkey "^[[1~" beginning-of-line
+bindkey "^[[4~" end-of-line
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv aws)
+source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+
 source $HOME/.macbook/.profile
